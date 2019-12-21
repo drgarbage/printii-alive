@@ -16,9 +16,11 @@ app.use((req, res, next) => {
 });
 
 const SN_MAPPING = {
-  "LZABP-NVOQN-TBGRK-JQUQX": { serialNumber: "LZABP-NVOQN-TBGRK-JQUQX", client: "野村台南店 1", numberOfClients: 10 },
+  "LZABP-NVOQN-TBGRK-JQUQX": { serialNumber: "LZABP-NVOQN-TBGRK-JQUQX", client: "野村嘉義", numberOfClients: 15 },
   "ILMIW-RRTSW-EYPCI-WYYBR": { serialNumber: "ILMIW-RRTSW-EYPCI-WYYBR", client: "野村台南店 2", numberOfClients: 10 },
   "IWCLG-TSNED-HTCKS-LHHME": { serialNumber: "IWCLG-TSNED-HTCKS-LHHME", client: "野村台南店 3", numberOfClients: 10 },
+  "JCOOR-SKFTN-GPEOQ-AQEYL": { serialNumber: "JCOOR-SKFTN-GPEOQ-AQEYL", client: "野村岡山", numberOfClients: 15 },
+  "JXRTA-LYJTM-DGZXB-FXJXV": { serialNumber: "JXRTA-LYJTM-DGZXB-FXJXV", client: "野村永康", numberOfClients: 15 }
 };
 
 app.all('/', (req, res) => {
